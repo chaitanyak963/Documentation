@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="java.png"/>
+  <img src="images/java.png"/>
 </p>
 
 # INTRODUCTION TO JAVA
@@ -23,7 +23,7 @@ The history of Java is very interesting. Java was originally designed for intera
 The principles for creating Java programming were "Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded, Architecture Neutral, Object-Oriented, Interpreted, and Dynamic". Java was developed by James Gosling, who is known as the father of Java, in 1995. James Gosling and his team members started the project in the early '90s.
 
 <p align="center">
-  <img src="gosling.jpg"/>
+  <img src="images/gosling.jpg"/>
 </p>
 
 James Gosling - founder of java
