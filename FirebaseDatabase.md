@@ -4,7 +4,7 @@ The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSO
 ![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/fb.png)
 
 ### Why is Firebase Database ?
-#### Realtime: 
+#### Realtime 
 The data stored in the Firebase Realtime Database will be reflected at realtime i.e. if there is a change in the values in the database then that change will be reflected back to all the users at that instant only and no dealy will be there.
 
 #### Large Accessibility 
