@@ -358,10 +358,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
 •	Now, you can try running the application.
 
-
-<p align="center">
-  <img src="f.png"/>
-</p>
+![picture alt](https://github.com/chaitanyak963/Document/raw/master/f.png)
 
 •	As you can see it is working absolutely fine. 
 

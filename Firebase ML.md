@@ -7,7 +7,7 @@ Currently, the models are limited to computer-vision-related tasks only, such as
 
 ## how to add Firebase ML Kit to an Android Studio project and use some of its base APIs?
 
-## Prerequisites:
+## Prerequisites
 
 Before you proceed, make sure you have access to the following:
 
@@ -139,7 +139,7 @@ If you position all the above widgets using a RelativeLayout widget, your layout
 </RelativeLayout>
 
 ```
-•	Here's a more visual representation of the layout:
+•	Here's a more visual representation of the layout
 
 ![picture alt](https://github.com/chaitanyak963/Document/raw/master/f(1).png)
 
@@ -231,7 +231,7 @@ Lastly, once you have finished using the detector, you must remember to call its
 
 ML Kit's local model for text recognition is reasonably accurate with most kinds of printed text.
 
-## 6.Detect Faces:
+## 6.Detect Faces
 
 Even though they don't share any common high-level interface, most of the detector classes have identical methods. That means that detecting faces in an image is not too different from recognizing text. However, note that ML Kit currently offers only a local model for face detection, which can be accessed using the FirebaseVisionFaceDetector class. You can get a reference to an instance of it using the FirebaseVision class.
 
