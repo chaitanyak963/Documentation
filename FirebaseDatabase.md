@@ -108,6 +108,6 @@ reference.child("123").removeValue();
 
 ![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/img.png)
 
-![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/img1.png)
+![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/img2.png)
 
 ![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/imgdb.png)
