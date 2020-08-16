@@ -51,7 +51,7 @@ DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Datab
 //To push/write data into database.
 reference.setValue("Welcome to Android World");
 ```
-[Write to Database Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
+[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 
 #### Read from your database 
 * To make your app data update in realtime, you should add a ValueEventListener to the reference you just created.
@@ -74,7 +74,7 @@ reference.addValueEventListener(new ValueEventListener() {
     }
 });
 ```
-[Read from Database Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
+[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 #### Update single data into your database 
 * To update any single value in the database we will use updateChildren().
 ```
@@ -97,13 +97,13 @@ reference.addValueEventListener(new ValueEventListener() {
             }
         });
 ```
-[Read from Database Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
+[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 #### Delete single data from database 
 * To delete any single value from the database we will use removeValue().
 ```
 reference.child("123").removeValue();
 ```
-[Delete from Database Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MyAdapter.java)
+[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MyAdapter.java)
 
 #### Output Screens :
 
