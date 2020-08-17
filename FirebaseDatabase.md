@@ -108,8 +108,13 @@ reference.child("123").removeValue();
 
 <img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="600" height="300"/>
 
+* 
 
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen2.png" width="600" height="300"/>
 
+*   
+
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen3.png" width="600" height="300"/>
 
 ## Output Screens 
 
