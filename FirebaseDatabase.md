@@ -106,7 +106,7 @@ reference.child("123").removeValue();
 
 * Create a new project as shown in the below screen.
 
-<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="300" height="600"/>
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="600" height="300"/>
 
 
 
