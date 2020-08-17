@@ -97,16 +97,18 @@ reference.addValueEventListener(new ValueEventListener() {
         });
 ```
 #### Delete single data from database 
-* To delete any single value from the database we will use removeValue().
+* To delete any single value from the database we will use removeValue()
 ```java
 reference.child("123").removeValue();
 ```
 
 ## Related Practical
 
-. Create a new project as shown in the below screen.
+* Create a new project as shown in the below screen.
 
-![picture alt]()
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="300" height="600"/>
+
+
 
 
 ## Output Screens 
