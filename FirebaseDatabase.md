@@ -1,9 +1,10 @@
-### What is Firebase Database ?
+# Firebase Realtime Database
+## What is Firebase Database ?
 The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
 
 ![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/fb.png)
 
-### Why is Firebase Database ?
+## Why is Firebase Database ?
 #### Realtime 
 The data stored in the Firebase Realtime Database will be reflected at realtime i.e. if there is a change in the values in the database then that change will be reflected back to all the users at that instant only and no dealy will be there.
 
@@ -17,7 +18,7 @@ This is the best advantage of using Firebase Realtime Database. If you are not c
 There is no need for application server here because the data is directly accessed from the mobile device.
 Control access to data: By default, no one is allowed to change the data in the Firebase Realtime Database but you can control the access of data i.e. you can set which user can access the data.
 
-### How is Firebase Database ?
+## How is Firebase Database ?
 #### Step 1 - Connect your App to Firebase 
 If you haven't already, add Firebase to your Android project.
 Then by clicking on the tools in you android studio and connect the firebase by clicking on connect to firebase from the Firebase Assistant
@@ -41,22 +42,21 @@ Denies all reads and writes from mobile and web clients. Your authenticated appl
 
 #### Add the Realtime Database SDK to your app 
 Add the dependency for the Realtime Database Android library to your module (app-level) Gradle file (usually app/build.gradle):
-```
+```gradle
 implementation 'com.google.firebase:firebase-database:19.3.1'
 ```
 #### Write to your database 
 * Retrieve an instance of your database using getInstance() and reference the location you want to write to.
-```
+```java
 DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Database");
 //To push/write data into database.
 reference.setValue("Welcome to Android World");
 ```
-[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 
 #### Read from your database 
 * To make your app data update in realtime, you should add a ValueEventListener to the reference you just created.
 * The onDataChange() method in this class is triggered once when the listener is attached and again every time the data changes, including the children.
-```
+```java
 reference.addValueEventListener(new ValueEventListener() {
     @Override
     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -74,10 +74,9 @@ reference.addValueEventListener(new ValueEventListener() {
     }
 });
 ```
-[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 #### Update single data into your database 
 * To update any single value in the database we will use updateChildren().
-```
+```java
         HashMap<String,Object> map = new HashMap<>();
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
         Query query = ref.child("Database").orderByChild("roll").equalTo(roll);
@@ -97,15 +96,18 @@ reference.addValueEventListener(new ValueEventListener() {
             }
         });
 ```
-[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MainActivity.java)
 #### Delete single data from database 
 * To delete any single value from the database we will use removeValue().
-```
+```java
 reference.child("123").removeValue();
 ```
-[Reference Code](https://github.com/AP-Skill-Development-Corporation/AdvancedAndroid/blob/master/DatabaseEx/app/src/main/java/com/example/cherry/databaseex/MyAdapter.java)
 
-#### Output Screens :
+## Related Practical
+
+
+
+
+## Output Screens 
 
 ![picture alt](https://github.com/chaitanyak963/Documentation/raw/master/images/img.png)
 
