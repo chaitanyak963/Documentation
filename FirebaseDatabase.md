@@ -104,7 +104,9 @@ reference.child("123").removeValue();
 
 ## Related Practical
 
+. Create a new project as shown in the below screen.
 
+![picture alt]()
 
 
 ## Output Screens 
