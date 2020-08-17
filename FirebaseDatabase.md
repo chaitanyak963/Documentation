@@ -108,11 +108,11 @@ reference.child("123").removeValue();
 
 <img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="600" height="300"/>
 
-* 
+* Select an empty activity to work from the root of the project.
 
 <img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen2.png" width="600" height="300"/>
 
-*   
+* Application name is given as ExampleDatabase and without doing any more changes just click on finish.
 
 <img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen3.png" width="600" height="300"/>
 
