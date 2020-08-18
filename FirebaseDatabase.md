@@ -97,17 +97,24 @@ reference.addValueEventListener(new ValueEventListener() {
         });
 ```
 #### Delete single data from database 
-* To delete any single value from the database we will use removeValue().
+* To delete any single value from the database we will use removeValue()
 ```java
 reference.child("123").removeValue();
 ```
 
 ## Related Practical
 
-. Create a new project as shown in the below screen.
+* Create a new project as shown in the below screen.
 
-![picture alt]()
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen1.png" width="600" height="300"/>
 
+* Select an empty activity to work from the root of the project.
+
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen2.png" width="600" height="300"/>
+
+* Application name is given as ExampleDatabase and without doing any more changes just click on finish.
+
+<img src ="https://github.com/chaitanyak963/Documentation/raw/master/images/screen3.png" width="600" height="300"/>
 
 ## Output Screens 
 
